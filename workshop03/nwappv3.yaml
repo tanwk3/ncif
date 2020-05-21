@@ -36,7 +36,7 @@ spec:
       spec:
          containers:
          - name: nwapp-container
-           image: chukmunnlee/nwapp:v1
+           image: tanwk3/nwapp:v1
            imagePullPolicy: IfNotPresent
            env:
            - name: DB_USER
